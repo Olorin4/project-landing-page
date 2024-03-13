@@ -31,7 +31,6 @@ a {
     flex-basis: 300px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 .container {
@@ -39,11 +38,14 @@ a {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 50px;
+}
+
+.hero .container {
+    gap: 150px;
+    height: 600px;
 }
 
 .header {
-    flex-shrink: 2;
     display: flex;
     flex-direction: column;
 }
@@ -94,8 +96,8 @@ img {
 }
 
 #hero-img {
-    height: 250px;
-    width: 500px;
+    height: 350px;
+    flex-basis:  500px;
     border: 0;
     flex-shrink: 1;
 }
@@ -103,21 +105,22 @@ img {
 .box {
     display: flex;
     flex-direction: column;
+    gap: 10px;
     justify-content: center;
     align-items: center;
 }
 
 .boxes {
-    flex-basis: 300px;
+    flex-basis: 400px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;;
     justify-content: center;
     align-items: center;
 }
 
 .box p {
     color: #3882f6;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: lighter;
 }
 
