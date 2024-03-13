@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', Verdana, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -12,6 +12,7 @@ body {
 
 li {
     list-style: none;
+    margin-left: 22px;
 }
 
 a {
@@ -26,20 +27,24 @@ a {
     background-color: #1F2937;
 }
 
-.navbar
- {
-    flex-basis: 150px;
-}
-
 .hero {
-    flex-basis: 250px;
-}
-
-.container {
-    height: 100px;
+    flex-basis: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
@@ -50,6 +55,8 @@ a {
 
 .nav {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     gap: 10px;
 }
 
@@ -96,12 +103,20 @@ img {
 
 .quote {
     background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .testimonial {
     color: #1f2937;
     font-style: italic;
     font-size: 36px;
+}
+
+.signature {
+    color: #1f2937;
+    margin-left: auto;
 }
 
 button,
@@ -127,3 +142,4 @@ h4 {
 .action {
     margin: 100px;
 }
+
