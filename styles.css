@@ -39,12 +39,13 @@ a {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
 
 .header {
     display: flex;
     flex-direction: column;
+    width: 680px;
 }
 
 .logo {
@@ -91,6 +92,12 @@ img {
     padding: 15px;
 }
 
+#hero-img {
+    height: 300px;
+    width: 600px;
+    padding: 25px;
+}
+
 .box {
     display: flex;
     flex-direction: column;
@@ -113,10 +120,17 @@ img {
     flex-direction: column;
 }
 
-.testimonial {
+.testimonial p{
     color: #1f2937;
     font-style: italic;
     font-size: 36px;
+    flex-basis: 750px;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .signature {
