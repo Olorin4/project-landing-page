@@ -192,3 +192,7 @@ h4 {
     align-items: center;
 }
 
+.action .container {
+    gap: 20px;
+}
+
