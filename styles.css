@@ -89,14 +89,14 @@ button {
 
 img {
     height: 150px;
-    padding: 15px;
+    border: 1px solid blue;
     border-radius: 25px;
 }
 
 #hero-img {
     height: 250px;
     width: 500px;
-    padding: 25px;
+    border: 0;
     flex-shrink: 1;
 }
 
@@ -113,6 +113,12 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.box p {
+    color: #3882f6;
+    font-size: 10px;
+    font-weight: lighter;
 }
 
 .quote {
