@@ -90,10 +90,12 @@ button {
 img {
     height: 150px;
     padding: 15px;
+    border-radius: 25px;
 }
 
 #hero-img {
     height: 250px;
+    width: 500px;
     padding: 25px;
     flex-shrink: 1;
 }
